@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    font-family: sans-serif;
+}
+a{
+  text-decoration: none;
+  color: none;
+}
+.main_container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.sider_bar{
+    width: 400px;
+    height: 100vh;
+    background: url('./assets/sidebar.jpg');
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+
+.move_to_index{
+  width: 100%;
+ padding-top: 60px;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+}
+.remaining{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.para{
+    margin-top: 20px;
+
+}
+.button {
+    max-width: 320px;
+    display: flex;
+    padding: 0.5rem 1.4rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    gap: 0.75rem;
+    color: rgb(65, 63, 63);
+    background-color: #fff;
+    cursor: pointer;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+  }
+  .upper{
+    width: fit-content;
+    margin-top: 100px;
+    height: fit-content;
+    text-align: center;
+  }
+  .button svg {
+    height: 24px;
+  }
+  .center{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+  }
+  .line{
+    width: 45%;
+    height: fit-content;
+    border: 1px solid gray;
+  }
+.bottom{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+  .email_btn{
+    width: 200px;
+    height: 40px;
+    font: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(0, 162, 255);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 40px;
+  }
+  .login{
+    color: rgb(0, 149, 255);
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .login:hover{
+    transform: scale(1.2);
+  }

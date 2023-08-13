@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forage</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/28be64c34e.js" crossorigin="anonymous"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="shortcut icon" href="./assets/Logo.png"  type="image/x-icon">
+</head>
+<body>
+    <div class="navBar">
+        <div class="logo">
+            Forage
+        </div>
+        <div class="navigation">
+            <button style="width: 100px; 
+            height: 40px;
+            cursor: pointer;
+            color: rgb(51, 132, 255);
+             border: 2px solid rgb(10, 108, 255);
+             border-radius: 10px;
+             background: transparent;
+             "    onmouseenter="show()" onmouseleave="hide()">Explore</button> 
+             <div class="Explore_dropDown" id="Explore_Data"  onmouseenter="show()" onmouseleave="hide()">
+                <div class="simulations" style="width: 250px; display: inline-block;">
+                    <h3 style="color: #13397a;">Job Simulations</h3>
+                    <p>Develop practical skills and gain a hiring advantage with online 
+                        courses that reflect the work done on the job.</p>
+                        <button style="border: 2px solid rgb(0, 174, 255);
+                         color: #6d9cee; background: transparent;
+                         border-radius: 5px;
+                         height: 50px;
+                         width: 160px;
+                         margin-left: 5px;
+                         cursor: pointer;
+                         "><a href="Error.html">
+                         View Simulations
+                        </a></button>
+                </div>
+                <div class="recomends" style="display: inline-block; margin-left: 20px;">
+                    <h3 style="color: #13397a;">RECOMMENDS</h3>
+                    <ul style="font-size: 15px; cursor: pointer;" class="hover">
+                        <li>Security</li>
+                        <li>Marketing</li>
+                        <li>Consulting</li>
+                        <li>Law</li>
+                    </ul>
+                </div>
+
+
+                <div class="carrerPath" style="width: 300px;">
+                    <h3 style="color: #13397a;">Carrer Path</h3>
+                    <p>Career Paths group relevant job simulations together to guide you on a clear road to landing a dream entry-level role</p>
+                </div>
+             </div>
+            <span style="font-size: 20px; 
+            margin-left: 60px;
+            cursor: pointer;
+            " onmouseover="SHOW()" onmouseleave="HIDE()"  >Blog</span>
+            <div class="Blog_dropDown" id="BlogDropDown" onmouseover="SHOW()" onmouseleave="HIDE()" >
+                <div class="blog_part" style="display: inline-block; width: 300px;">
+                    <h3 style="color: #13397a;"> Blog</h3>
+                <p >Knowledge is power. Check out fresh, industry-leading articles and boost your chances
+                     of landing your dream role</p>
+                </div>
+                <div class="popular_blog" style="display: inline-block; ">
+                    <h3 style="color: #13397a;">Popular</h3>
+                    <ul class="hover">
+                        <li>Top Carrer</li>
+                        <li>Hiring Darires</li>
+                        <li>Carrer Advice</li>
+                        <li>Company Guidence</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="signup">
+           <a href="signIn.html"> <button class="signbtn">Sign Up</button> </a>
+         <a href="Login.html"> <label class="icons"> <i class="fa-solid fa-user fa-beat-fade " style="color: #6d9cee;"></i></label>   </a> 
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="sub_content">
+            <div class="sub1">
+                <h1 class="heading">
+                    Build confidence.Get the job.
+                </h1>
+                <p class="details">
+                    Explore careers and prepare for the job with hundreds of free job simulations designed by the world's top employers.
+                </p>
+                <a href="Error.html">
+                <button class="get_started">Get Started  <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></button>
+                </a>
+            </div>
+            <img src="./assets/homepage_hero.svg" alt="logo" width="600px">
+            
+        </div>
+    </div>
+
+    <div class="companyies_logos">
+        <a href="https://tech.walmart.com/content/walmart-global-tech/en_us.html">
+            <img src="https://cdn.theforage.com/vinternships/companyassets/prBZoAihniNijyD6d/CSN4y3ePwJCyRZTtj/1638745568872/GlobalTech_Logo_EXTERNAL_greenwhite.png" class="logo1"  >
+        </a>
+        <a href="https://shop.lululemon.com/">
+            <img src="https://cdn.theforage.com/vinternships/companyassets/o7HHQLXWRQMXdXE4P/jRvR66mwdjMQyHZ29/1634063810909/lululemon_Yogotype_RGB_WHT.png" class="logo1">
+
+        </a>
+
+        <a href="https://www.jpmorgan.com/global">
+            <img src="https://cdn.theforage.com/vinternships/companyassets/ZtgA28qyexifyEdHE/X4TxXYQuNpSotbsFR/JPM_Logo_White_1324x300px.png" class="logo1">
+        </a>
+
+        <a href="https://www.redbull.com/in-en/">
+            <img src="https://cdn.theforage.com/vinternships/companyassets/P2whMfgG9v48cqWwx/dpN7PmoeCuNXx6YCQ/1638815517273/RB_Standard_Logo_Mono_neg_2017.png"   class="logo5" >
+
+        </a>
+
+        <a href="https://www.bcg.com/">
+            <img src="https://cdn.theforage.com/vinternships/companyassets/SKZxezskWgmFjRvj9/BqF6gmrmLunCkdqKM/BCG_MONOGRAM_RGB_WHITE.png" class="logo5">
+        </a>
+
+        <a href="http://www.bankofamerica.com/">
+            <img src="https://cdn.theforage.com/vinternships/companyassets/fMCqmt8qR4G85Puue/J6Md4cccXnq7kokNB/1649699493725/1920px-Bank_of_America_logo white.svg (1).png" class="logo6">
+        </a>
+        
+    </div>
+
+
+
+        <div class="job_section">
+            <h1 class="job_heading">
+                Explore our free job simulations
+            </h1>
+            <div class="scrolling_scetion">
+                               <div class="cards">
+                                            <img src="https://cdn.theforage.com/vinternships/companyassets/Sj7temL583QAYpHXD/JiwEkbBq8pFwMRYLc/1650355940241/R5iK7HMxJGBgaSbvk-w243-h142.jpeg" alt="">
+                                            <div class="card_data">
+                                                <p class="cmp_name">
+                                                    J.P.Morgan
+                                                </p>
+                                                <p class="role">
+                                                    Software Engineering
+                                                </p>
+                                                <div class="card_end">
+                                                    <span>5 hours</span>
+                                                    <span>Tech</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- --------------- -->
+                          <div class="cards">
+                            <img src="https://cdn-assets.theforage.com/vinternships/companyassets/P2whMfgG9v48cqWwx/dpN7PmoeCuNXx6YCQ/1642618566826/s6RNpxzBkpREvE4xk-w243-h142.jpg" alt="">
+                            <div class="card_data">
+                                <p class="cmp_name">
+                                    Red Bull
+                                </p>
+                                <p class="role">
+                                    On-Permise Sales
+                                </p>
+                                <div class="card_end">
+                                    <span>2-3 hours</span>
+                                    <span>Sales</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- --------------- -->
+                        <div class="cards">
+                            <img src="https://cdn-assets.theforage.com/vinternships/companyassets/MdKvo8dBLF8h9wCnx/boCQJL8iMAvgjLKmf/1643847342370/xSw9echtixLAoPdsH-w243-h142.jpg" alt="">
+                            <div class="card_data">
+                                <p class="cmp_name">
+                                   Lyft
+                                </p>
+                                <p class="role">
+                                    Back-End Engineering
+                                </p>
+                                <div class="card_end">
+                                    <span>4-5 hours</span>
+                                    <span>Tech</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- --------------- -->
+                        <div class="cards">
+                            <img src="https://cdn-assets.theforage.com/vinternships/companyassets/T6kdcdKSTfg2aotxT/MsAqi7SNLKw3C6LAr/1631830033344/rMSFymzsPCwMGRun8-w243-h142.jpg">
+                            <div class="card_data">
+                                <p class="cmp_name" style="font-size: 15px;">
+                                    Accenture North America
+                                </p>
+                                <p class="role">
+                                    Strategy Consulting
+                                </p>
+                                <div class="card_end">
+                                    <span>5-6 hours</span>
+                                    <span>Consulting</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- --------------- -->
+                        <div class="cards">
+                            <img src="https://cdn.theforage.com/vinternships/companyassets/o7HHQLXWRQMXdXE4P/jRvR66mwdjMQyHZ29/1650503904693/2020_run_digital-banner_2160x1080_03.jpeg" alt="">
+                            <div class="card_data">
+                                <p class="cmp_name" style="margin: 0%; font-size: 15px;">
+                                   lululemon
+                                </p>
+                                <p class="role" style="padding: 0%;">
+                                    Omnichannel Marketing
+                                </p>
+                                <div class="card_end">
+                                    <span>2-2.5 hours</span>
+                                    <span>Marketing</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- --------------- -->
+                      
+                        
+                     
+
+
+            </div>
+
+
+            <h1 class="forage">
+                Forage is the bridge between education and carrer success
+             </h1>
+                      
+             <p class="useOfForage">
+                Our jobs simulation build real-life skills for real-life roles,offering a window into the company and a preview of their day-to-day.Job sims are 100% free, open access and self-paced
+             </p>   
+             
+             <div class="steps">
+                <label class="line"></label>
+                <div class="step1">
+                    <label class="stepCircle" >1</label>
+                    <p style="text-align: center; font-size: 20px;"> For Forage and tell us a little about yourself</p>
+                </div>
+                <div class="step1">
+                    <label class="stepCircle" >2</label>
+                    <p style="text-align: center; font-size: 20px;">Enroll in a job sim and complete tasks that replicate real work.</p>
+                </div>
+                <div class="step1">
+                    <label class="stepCircle" >3</label>
+                    <p style="text-align: center; font-size: 20px;">Compare your work with model answers and earn a certificate.</p>
+                </div>
+                <div class="step1" style="height:150px;">
+                    <label class="stepCircle" >4</label>
+                    <p style="text-align: center; font-size: 20px;">Access curated resources and a chance to connect with recruiters.</p>
+                </div>
+             </div>
+             <a href="Error.html">
+               <button class="forageWorkbtn">How Forage Works <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></button>
+               </a>
+        </div>
+
+
+<div class="banner">
+    <div class="banner_left">
+        <h1 class="colorH1">
+            4x more likely
+        </h1>
+        <p class="colorPara">
+            to land a job after completing a job simulation
+        </p>
+        <h1 class="colorH1">Over 250 job simulations and 150+ employers</h1>
+        <p class="colorPara">across diverse industries and carrer</p>
+        <h1 class="colorH1">3M+ students</h1>
+        <p class="colorPara">enrolled in Forage job simulation</p>
+        <a href="Error.html">
+        <button class="FindBtn">Find Program <i class="fa-solid fa-arrow-right" style="color: #020202;"></i></button>
+    </a>
+    </div>
+    <div class="banner_right">
+        <img src="./assets/Image2.jpeg" alt="">
+    </div>
+</div>
+
+
+<div class="employee_works_at">
+    <h1 class="job_heading" style="text-align: center;">
+        Employers who are going beyond the resume
+    </h1>
+    <div class="workers_working_in">
+        <div class="work_card">
+            <img src="https://cdn.theforage.com/vinternships/companyassets/prBZoAihniNijyD6d/CSN4y3ePwJCyRZTtj/1638311453195/GlobalTech_Logo_EXTERNAL_greenblue.png">
+        </div>
+        <div class="work_card">
+            <img src="https://cdn.theforage.com/vinternships/companyassets/o7HHQLXWRQMXdXE4P/jRvR66mwdjMQyHZ29/1634063817475/lululemon_Yogotype_RGB_CLR.png" alt="">
+        </div>
+        <div class="work_card">
+            <img src="https://cdn.theforage.com/vinternships/companyassets/ZtgA28qyexifyEdHE/X4TxXYQuNpSotbsFR/JPM_Logo_Colour_1324x300px.png" >
+        </div>
+        <div class="work_card">
+            <img src="https://cdn.theforage.com/vinternships/companyassets/P2whMfgG9v48cqWwx/dpN7PmoeCuNXx6YCQ/1638815534276/RB_Standard_Logo_cmyk_2017.png" alt="">
+        </div>
+        <div class="work_card">
+            <img src="https://cdn.theforage.com/vinternships/companyassets/SKZxezskWgmFjRvj9/BqF6gmrmLunCkdqKM/BCG_MONOGRAM_RGB_GREEN.png" alt="">
+        </div>
+        <div class="work_card">
+            <img src="https://cdn.theforage.com/vinternships/companyassets/fMCqmt8qR4G85Puue/J6Md4cccXnq7kokNB/1656480508804/BOALOGO 1.png" alt="">
+        </div>
+        <div class="work_card">
+            <img src="https://cdn.theforage.com/vinternships/companyassets/j43dGscQHtJJ57N54/YEjyTTRqQZuc4tqg8/060320_electronic_arts_wordmark_red%201.png" alt="">
+        </div>
+        <div class="work_card">
+            <img src="https://cdn.theforage.com/vinternships/companyassets/DMrpG9KbbePZxGfSN/gJAzYWCDjzAsPxgYP/Acc_Logo_Black_Purple_RGB.png" alt="">
+        </div>
+        <div class="work_card">
+            <img src="https://cdn.theforage.com/vinternships/companyassets/MBA4MnZTNFEoJZGnk/prcj7XmSCJazax8LQ/GS_Box_Blue 300dpi.png" alt="">
+        </div>
+        <div class="work_card">
+            <img src="https://cdn.theforage.com/vinternships/companyassets/8eNRcRqBZM9HLvwGw/Eofm5t6uMHFSGLtuW/citi-r_blue-redarc_rgb 1 (cropped).png" alt="">
+        </div>
+
+    </div>
+</div>
+
+
+
+
+<div class="TooGood">
+    <h1 class="goodTxtx" style="text-align: center;">Too good to be true? Hear from real students.</h1>
+    <div class="goodPersons">
+        <div class="person0neCard">
+            <img src="https://forage-static-seo-pages.s3.ap-southeast-2.amazonaws.com/images/Nana.jpeg" alt="">
+            <p style="padding: 10px; box-sizing: border-box;">
+                "You can't have a say at the table if you don’t have a seat at the table.
+                 So these programs and these opportunities for people who look like me,
+                  act like me and think like me, are an opportunity to have a seat at the
+                   table so we can have a better future for the people behind us."
+            </p>
+        </div>
+
+
+
+        <div class="person0neCard">
+            <img src="https://forage-static-seo-pages.s3.ap-southeast-2.amazonaws.com/images/Neissa.jpeg" alt="">
+            <p style="padding: 10px; box-sizing: border-box;">
+                "I started a project at Forage and look at me now.
+                 If it wasn't for that one feeling to just apply… I
+                  wouldn't have all these experiences."
+            </p>
+        </div>
+        <div class="person0neCard">
+            <img src="https://forage-static-seo-pages.s3.ap-southeast-2.amazonaws.com/images/Alvin.jpeg" alt="">
+            <p style="padding: 10px; box-sizing: border-box;">
+                "This program on Forage is like having binoculars - you aren’t
+                 experiencing the entire environment yet, but you get to peer across 
+                and see what it’s like - piecing together what you have read about."
+            </p>
+        </div>
+    </div>
+    <a href="Error.html">
+    <button class="goobBtn">Find Program <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></button>
+    </a>
+</div>
+
+
+
+
+<div class="motivation_div">
+    <h1 style="text-align: center; font-size: 50px;padding: 30px;">Are you an employer interested in highly motivated candidates ready on Day One?</h1>
+    <a href="Error.html">
+    <button class="DemoReqBtn">Request a Demo <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></button>
+</a>
+</div>
+<div class="needed">
+    <div class="needContent">
+        <h1 style="color: #13397a;font-size: 60px;">We want to build a world where candidates are considered equally on their merits.</h1>
+        <p style="font-size: 30px;">We're here to ensure that your skills, grit, and drive are recognized and rewarded.</p>
+    </div>
+    <div class="animation">
+
+        <div class="svg-frame">
+            <svg style="--i:0;--j:0;">
+                <g id="out1">
+                    <path d="M72 172C72 116.772 116.772 72 172 72C227.228 72 272 116.772 272 172C272 227.228 227.228 272 172 272C116.772 272 72 227.228 72 172ZM197.322 172C197.322 158.015 185.985 146.678 172 146.678C158.015 146.678 146.678 158.015 146.678 172C146.678 185.985 158.015 197.322 172 197.322C185.985 197.322 197.322 185.985 197.322 172Z"></path>
+                    <path mask="url(#path-1-inside-1_111_3212)" stroke-miterlimit="16" stroke-width="2" stroke="#00FFFF" d="M72 172C72 116.772 116.772 72 172 72C227.228 72 272 116.772 272 172C272 227.228 227.228 272 172 272C116.772 272 72 227.228 72 172ZM197.322 172C197.322 158.015 185.985 146.678 172 146.678C158.015 146.678 146.678 158.015 146.678 172C146.678 185.985 158.015 197.322 172 197.322C185.985 197.322 197.322 185.985 197.322 172Z"></path>
+                </g>
+            </svg>
+        
+            <svg style="--i:1;--j:1;">
+                <g id="out2">
+                    <mask fill="white" id="path-2-inside-2_111_3212">
+                        <path d="M102.892 127.966C93.3733 142.905 88.9517 160.527 90.2897 178.19L94.3752 177.88C93.1041 161.1 97.3046 144.36 106.347 130.168L102.892 127.966Z"></path>
+                        <path d="M93.3401 194.968C98.3049 211.971 108.646 226.908 122.814 237.541L125.273 234.264C111.814 224.163 101.99 209.973 97.2731 193.819L93.3401 194.968Z"></path>
+                        <path d="M152.707 92.3592C140.33 95.3575 128.822 101.199 119.097 109.421L121.742 112.55C130.981 104.739 141.914 99.1897 153.672 96.3413L152.707 92.3592Z"></path>
+                        <path d="M253.294 161.699C255.099 175.937 253.132 190.4 247.59 203.639L243.811 202.057C249.075 189.48 250.944 175.74 249.23 162.214L253.294 161.699Z"></path>
+                        <path d="M172 90.0557C184.677 90.0557 197.18 92.9967 208.528 98.6474C219.875 104.298 229.757 112.505 237.396 122.621L234.126 125.09C226.869 115.479 217.481 107.683 206.701 102.315C195.921 96.9469 184.043 94.1529 172 94.1529V90.0557Z"></path>
+                        <path d="M244.195 133.235C246.991 138.442 249.216 143.937 250.83 149.623L246.888 150.742C245.355 145.34 243.242 140.12 240.586 135.174L244.195 133.235Z"></path>
+                        <path d="M234.238 225.304C223.932 237.338 210.358 246.126 195.159 250.604C179.961 255.082 163.79 255.058 148.606 250.534L149.775 246.607C164.201 250.905 179.563 250.928 194.001 246.674C208.44 242.42 221.335 234.071 231.126 222.639L234.238 225.304Z"></path>
+                    </mask>
+                    <path mask="url(#path-2-inside-2_111_3212)" fill="#00FFFF" d="M102.892 127.966L105.579 123.75L101.362 121.063L98.6752 125.28L102.892 127.966ZM90.2897 178.19L85.304 178.567L85.6817 183.553L90.6674 183.175L90.2897 178.19ZM94.3752 177.88L94.7529 182.866L99.7386 182.488L99.3609 177.503L94.3752 177.88ZM106.347 130.168L110.564 132.855L113.251 128.638L109.034 125.951L106.347 130.168ZM93.3401 194.968L91.9387 190.168L87.1391 191.569L88.5405 196.369L93.3401 194.968ZM122.814 237.541L119.813 241.54L123.812 244.541L126.813 240.542L122.814 237.541ZM125.273 234.264L129.272 237.265L132.273 233.266L128.274 230.265L125.273 234.264ZM97.2731 193.819L102.073 192.418L100.671 187.618L95.8717 189.02L97.2731 193.819ZM152.707 92.3592L157.567 91.182L156.389 86.3226L151.53 87.4998L152.707 92.3592ZM119.097 109.421L115.869 105.603L112.05 108.831L115.278 112.649L119.097 109.421ZM121.742 112.55L117.924 115.778L121.152 119.596L124.97 116.368L121.742 112.55ZM153.672 96.3413L154.849 101.201L159.708 100.023L158.531 95.1641L153.672 96.3413ZM253.294 161.699L258.255 161.07L257.626 156.11L252.666 156.738L253.294 161.699ZM247.59 203.639L245.66 208.251L250.272 210.182L252.203 205.569L247.59 203.639ZM243.811 202.057L239.198 200.126L237.268 204.739L241.88 206.669L243.811 202.057ZM249.23 162.214L248.601 157.253L243.641 157.882L244.269 162.842L249.23 162.214ZM172 90.0557V85.0557H167V90.0557H172ZM208.528 98.6474L206.299 103.123L206.299 103.123L208.528 98.6474ZM237.396 122.621L240.409 126.611L244.399 123.598L241.386 119.608L237.396 122.621ZM234.126 125.09L230.136 128.103L233.149 132.093L237.139 129.08L234.126 125.09ZM206.701 102.315L204.473 106.791L204.473 106.791L206.701 102.315ZM172 94.1529H167V99.1529H172V94.1529ZM244.195 133.235L248.601 130.87L246.235 126.465L241.83 128.83L244.195 133.235ZM250.83 149.623L252.195 154.433L257.005 153.067L255.64 148.257L250.83 149.623ZM246.888 150.742L242.078 152.107L243.444 156.917L248.254 155.552L246.888 150.742ZM240.586 135.174L238.22 130.768L233.815 133.134L236.181 137.539L240.586 135.174ZM234.238 225.304L238.036 228.556L241.288 224.759L237.491 221.506L234.238 225.304ZM195.159 250.604L196.572 255.4L196.572 255.4L195.159 250.604ZM148.606 250.534L143.814 249.107L142.386 253.899L147.178 255.326L148.606 250.534ZM149.775 246.607L151.203 241.816L146.411 240.388L144.983 245.18L149.775 246.607ZM194.001 246.674L195.415 251.47L195.415 251.47L194.001 246.674ZM231.126 222.639L234.379 218.841L230.581 215.589L227.329 219.386L231.126 222.639ZM98.6752 125.28C88.5757 141.13 83.8844 159.826 85.304 178.567L95.2754 177.812C94.0191 161.227 98.1709 144.681 107.109 130.653L98.6752 125.28ZM90.6674 183.175L94.7529 182.866L93.9976 172.895L89.912 173.204L90.6674 183.175ZM99.3609 177.503C98.1715 161.8 102.102 146.135 110.564 132.855L102.131 127.481C92.5071 142.585 88.0368 160.4 89.3895 178.258L99.3609 177.503ZM109.034 125.951L105.579 123.75L100.205 132.183L103.661 134.385L109.034 125.951ZM88.5405 196.369C93.8083 214.41 104.78 230.259 119.813 241.54L125.815 233.542C112.512 223.558 102.802 209.532 98.1397 193.566L88.5405 196.369ZM126.813 240.542L129.272 237.265L121.274 231.263L118.815 234.54L126.813 240.542ZM128.274 230.265C115.679 220.813 106.486 207.534 102.073 192.418L92.4735 195.221C97.493 212.412 107.948 227.513 122.272 238.263L128.274 230.265ZM95.8717 189.02L91.9387 190.168L94.7415 199.767L98.6745 198.619L95.8717 189.02ZM151.53 87.4998C138.398 90.681 126.188 96.8793 115.869 105.603L122.325 113.239C131.457 105.519 142.262 100.034 153.884 97.2187L151.53 87.4998ZM115.278 112.649L117.924 115.778L125.56 109.322L122.915 106.193L115.278 112.649ZM124.97 116.368C133.616 109.059 143.846 103.866 154.849 101.201L152.495 91.4818C139.981 94.5132 128.347 100.419 118.514 108.732L124.97 116.368ZM158.531 95.1641L157.567 91.182L147.848 93.5364L148.812 97.5185L158.531 95.1641ZM248.334 162.327C250.028 175.697 248.181 189.277 242.978 201.708L252.203 205.569C258.082 191.522 260.169 176.177 258.255 161.07L248.334 162.327ZM249.521 199.027L245.741 197.445L241.88 206.669L245.66 208.251L249.521 199.027ZM248.423 203.987C254.025 190.602 256.014 175.98 254.19 161.585L244.269 162.842C245.873 175.5 244.125 188.357 239.198 200.126L248.423 203.987ZM249.858 167.174L253.923 166.659L252.666 156.738L248.601 157.253L249.858 167.174ZM172 95.0557C183.903 95.0557 195.644 97.8172 206.299 103.123L210.757 94.1717C198.717 88.1761 185.45 85.0557 172 85.0557V95.0557ZM206.299 103.123C216.954 108.429 226.233 116.135 233.406 125.634L241.386 119.608C233.281 108.874 222.796 100.167 210.757 94.1717L206.299 103.123ZM234.383 118.631L231.113 121.1L237.139 129.08L240.409 126.611L234.383 118.631ZM238.116 122.077C230.393 111.849 220.403 103.552 208.93 97.8393L204.473 106.791C214.56 111.814 223.345 119.11 230.136 128.103L238.116 122.077ZM208.93 97.8393C197.458 92.1263 184.816 89.1529 172 89.1529V99.1529C183.269 99.1529 194.385 101.767 204.473 106.791L208.93 97.8393ZM177 94.1529V90.0557H167V94.1529H177ZM239.79 135.601C242.416 140.49 244.504 145.649 246.02 150.988L255.64 148.257C253.927 142.225 251.567 136.395 248.601 130.87L239.79 135.601ZM249.464 144.813L245.523 145.932L248.254 155.552L252.195 154.433L249.464 144.813ZM251.698 149.376C250.067 143.628 247.818 138.073 244.991 132.808L236.181 137.539C238.666 142.168 240.644 147.052 242.078 152.107L251.698 149.376ZM242.951 139.579L246.561 137.64L241.83 128.83L238.22 130.768L242.951 139.579ZM230.441 222.051C220.763 233.351 208.017 241.603 193.746 245.808L196.572 255.4C212.698 250.649 227.101 241.325 238.036 228.556L230.441 222.051ZM193.746 245.808C179.475 250.012 164.291 249.99 150.033 245.742L147.178 255.326C163.289 260.125 180.447 260.151 196.572 255.4L193.746 245.808ZM153.397 251.962L154.567 248.035L144.983 245.18L143.814 249.107L153.397 251.962ZM148.348 251.399C163.7 255.973 180.049 255.997 195.415 251.47L192.588 241.877C179.077 245.858 164.702 245.837 151.203 241.816L148.348 251.399ZM195.415 251.47C210.78 246.942 224.504 238.058 234.924 225.891L227.329 219.386C218.167 230.084 206.099 237.897 192.588 241.877L195.415 251.47ZM227.874 226.436L230.986 229.101L237.491 221.506L234.379 218.841L227.874 226.436Z"></path>
+                </g>
+            </svg>
+        
+            <svg style="--i:0;--j:2;">
+                <g id="inner3">
+                    <path d="M195.136 135.689C188.115 131.215 179.948 128.873 171.624 128.946C163.299 129.019 155.174 131.503 148.232 136.099L148.42 136.382C155.307 131.823 163.368 129.358 171.627 129.286C179.886 129.213 187.988 131.537 194.954 135.975L195.136 135.689Z"></path>
+                    <path d="M195.136 208.311C188.115 212.784 179.948 215.127 171.624 215.054C163.299 214.981 155.174 212.496 148.232 207.901L148.42 207.618C155.307 212.177 163.368 214.642 171.627 214.714C179.886 214.786 187.988 212.463 194.954 208.025L195.136 208.311Z"></path>
+                    <path mask="url(#path-5-inside-3_111_3212)" fill="#00FFFF" d="M195.136 135.689L195.474 135.904L195.689 135.566L195.351 135.352L195.136 135.689ZM171.624 128.946L171.627 129.346L171.624 128.946ZM148.232 136.099L148.011 135.765L147.678 135.986L147.899 136.32L148.232 136.099ZM148.42 136.382L148.086 136.603L148.307 136.936L148.641 136.716L148.42 136.382ZM171.627 129.286L171.63 129.686L171.627 129.286ZM194.954 135.975L194.739 136.313L195.076 136.528L195.291 136.19L194.954 135.975ZM195.136 208.311L195.351 208.648L195.689 208.433L195.474 208.096L195.136 208.311ZM171.624 215.054L171.627 214.654L171.624 215.054ZM148.232 207.901L147.899 207.68L147.678 208.014L148.011 208.234L148.232 207.901ZM148.42 207.618L148.641 207.284L148.307 207.063L148.086 207.397L148.42 207.618ZM171.627 214.714L171.63 214.314L171.627 214.714ZM194.954 208.025L195.291 207.81L195.076 207.472L194.739 207.687L194.954 208.025ZM195.351 135.352C188.265 130.836 180.022 128.473 171.62 128.546L171.627 129.346C179.874 129.274 187.966 131.594 194.921 136.026L195.351 135.352ZM171.62 128.546C163.218 128.619 155.018 131.127 148.011 135.765L148.453 136.432C155.33 131.88 163.38 129.418 171.627 129.346L171.62 128.546ZM147.899 136.32L148.086 136.603L148.753 136.161L148.566 135.878L147.899 136.32ZM148.641 136.716C155.463 132.199 163.448 129.757 171.63 129.686L171.623 128.886C163.287 128.958 155.15 131.447 148.199 136.049L148.641 136.716ZM171.63 129.686C179.812 129.614 187.839 131.916 194.739 136.313L195.169 135.638C188.138 131.158 179.959 128.813 171.623 128.886L171.63 129.686ZM195.291 136.19L195.474 135.904L194.799 135.474L194.617 135.76L195.291 136.19ZM194.921 207.974C187.966 212.406 179.874 214.726 171.627 214.654L171.62 215.454C180.022 215.527 188.265 213.163 195.351 208.648L194.921 207.974ZM171.627 214.654C163.38 214.582 155.33 212.12 148.453 207.567L148.011 208.234C155.018 212.873 163.218 215.38 171.62 215.454L171.627 214.654ZM148.566 208.122L148.753 207.838L148.086 207.397L147.899 207.68L148.566 208.122ZM148.199 207.951C155.15 212.553 163.287 215.041 171.623 215.114L171.63 214.314C163.448 214.243 155.463 211.801 148.641 207.284L148.199 207.951ZM171.623 215.114C179.959 215.187 188.138 212.842 195.169 208.362L194.739 207.687C187.839 212.084 179.812 214.386 171.63 214.314L171.623 215.114ZM194.617 208.239L194.799 208.526L195.474 208.096L195.291 207.81L194.617 208.239Z"></path>
+                </g>
+                <path stroke="#00FFFF" d="M240.944 172C240.944 187.951 235.414 203.408 225.295 215.738C215.176 228.068 201.095 236.508 185.45 239.62C169.806 242.732 153.567 240.323 139.5 232.804C125.433 225.285 114.408 213.12 108.304 198.384C102.2 183.648 101.394 167.25 106.024 151.987C110.654 136.723 120.434 123.537 133.696 114.675C146.959 105.813 162.884 101.824 178.758 103.388C194.632 104.951 209.472 111.97 220.751 123.249" id="out3"></path>
+            </svg>
+        
+            <svg style="--i:1;--j:3;">
+                <g id="inner1">
+                    <path fill="#00FFFF" d="M145.949 124.51L148.554 129.259C156.575 124.859 165.672 122.804 174.806 123.331C183.94 123.858 192.741 126.944 200.203 132.236C207.665 137.529 213.488 144.815 217.004 153.261C220.521 161.707 221.59 170.972 220.09 179.997L224.108 180.665L224.102 180.699L229.537 181.607C230.521 175.715 230.594 169.708 229.753 163.795L225.628 164.381C224.987 159.867 223.775 155.429 222.005 151.179C218.097 141.795 211.628 133.699 203.337 127.818C195.045 121.937 185.266 118.508 175.118 117.923C165.302 117.357 155.525 119.474 146.83 124.037C146.535 124.192 146.241 124.349 145.949 124.51ZM224.638 164.522C224.009 160.091 222.819 155.735 221.082 151.563C217.246 142.352 210.897 134.406 202.758 128.634C194.62 122.862 185.021 119.496 175.06 118.922C165.432 118.367 155.841 120.441 147.311 124.914L148.954 127.91C156.922 123.745 165.876 121.814 174.864 122.333C184.185 122.87 193.166 126.019 200.782 131.421C208.397 136.822 214.339 144.257 217.928 152.877C221.388 161.188 222.526 170.276 221.23 179.173L224.262 179.677C224.998 174.671 225.35 169.535 224.638 164.522Z" clip-rule="evenodd" fill-rule="evenodd"></path>
+                    <path fill="#00FFFF" d="M139.91 220.713C134.922 217.428 130.469 213.395 126.705 208.758L130.983 205.286L130.985 205.288L134.148 202.721C141.342 211.584 151.417 217.642 162.619 219.839C173.821 222.036 185.438 220.232 195.446 214.742L198.051 219.491C197.759 219.651 197.465 219.809 197.17 219.963C186.252 225.693 173.696 227.531 161.577 225.154C154.613 223.789 148.041 221.08 142.202 217.234L139.91 220.713ZM142.752 216.399C148.483 220.174 154.934 222.833 161.769 224.173C173.658 226.504 185.977 224.704 196.689 219.087L195.046 216.09C185.035 221.323 173.531 222.998 162.427 220.82C151.323 218.643 141.303 212.747 134.01 204.122L131.182 206.5C134.451 210.376 138.515 213.607 142.752 216.399Z" clip-rule="evenodd" fill-rule="evenodd"></path>
+                </g>
+            </svg>
+        
+            <svg style="--i:2;--j:4;">
+                <path fill="#00FFFF" d="M180.956 186.056C183.849 184.212 186.103 181.521 187.41 178.349C188.717 175.177 189.013 171.679 188.258 168.332C187.503 164.986 185.734 161.954 183.192 159.65C180.649 157.346 177.458 155.883 174.054 155.46C170.649 155.038 167.197 155.676 164.169 157.288C161.14 158.9 158.683 161.407 157.133 164.468C155.582 167.528 155.014 170.992 155.505 174.388C155.997 177.783 157.524 180.944 159.879 183.439L161.129 182.259C159.018 180.021 157.648 177.186 157.207 174.141C156.766 171.096 157.276 167.989 158.667 165.245C160.057 162.5 162.261 160.252 164.977 158.806C167.693 157.36 170.788 156.788 173.842 157.167C176.895 157.546 179.757 158.858 182.037 160.924C184.317 162.99 185.904 165.709 186.581 168.711C187.258 171.712 186.992 174.849 185.82 177.694C184.648 180.539 182.627 182.952 180.032 184.606L180.956 186.056Z" id="center1"></path>
+                <path fill="#00FFFF" d="M172 166.445C175.068 166.445 177.556 168.932 177.556 172C177.556 175.068 175.068 177.556 172 177.556C168.932 177.556 166.444 175.068 166.444 172C166.444 168.932 168.932 166.445 172 166.445ZM172 177.021C174.773 177.021 177.021 174.773 177.021 172C177.021 169.227 174.773 166.979 172 166.979C169.227 166.979 166.979 169.227 166.979 172C166.979 174.773 169.227 177.021 172 177.021Z" id="center"></path>
+            </svg>
+        
+        </div>
+
+    </div>
+</div>
+
+
+<footer>
+<div class="footerHead">
+    <svg height="40px" viewBox="0 0 777 233" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Forage Logo">
+        <path d="M353.821 114.672C352.875 116.494 351.22 118.654 348.86 121.153C342.919 126.956 336.103 129.858 328.405
+        129.858C324.98 129.858 321.696 129.25 318.553 128.044C318.304 127.949 318.055 127.848 317.808 127.744C316.913 127.372 
+        316.029 126.953 315.157 126.481C313.737 125.712 312.347 124.813 310.989 123.781C310.792 123.654 310.577 123.495 310.353 
+        123.321C310.163 123.172 309.96 123.005 309.748 122.821C309.484 122.592 309.208 122.345 308.912 122.061C308.709 121.867 
+        308.5 121.661 308.283 121.441C307.631 120.783 306.913 120.012 306.129 119.127C301.335 113.118 298.939 106.435 298.939 
+        99.0773C298.939 93.232 300.383 87.884 303.263 83.0333C303.741 82.2253 304.256 81.4307 304.815 80.6507C305.32 79.7027 
+        306.512 78.2773 308.377 76.3827C308.505 76.2533 308.628 76.1267 308.763 75.992C310.823 74.1427 312.957 72.6213 315.165
+         71.4133C319.32 69.1387 323.732 67.9947 328.405 67.9947C331.113 67.9947 333.764 68.396 336.363 69.172C337.345 69.4667 
+         338.32 69.8133 339.287 70.2173C340.224 70.6107 341.155 71.0413 342.076 71.5373C343.085 72.0787 344.167 72.8213 345.316
+          73.768C345.501 73.8453 345.731 73.984 345.993 74.1707C346.879 74.8 348.201 76.044 349.971 77.9187C353.972 82.5773 356
+          .471 87.6707 357.471 93.2027C357.555 93.664 357.628 94.1267 357.689 94.5947C357.877 95.996 357.971 97.424 357.971
+           98.88V99.1787C357.971 102.683 357.361 106.11 356.168 109.467C355.544 111.221 354.771 112.957 353.821 114.672ZM373.971
+            80.144C372.143 75.0453 369.129 70.0653 364.952 65.1987C364.651 64.848 364.36 64.4973 364.047 64.148C363.897 63.9933 
+            363.757 63.8533 363.612 63.7053C361.461 61.5147 359.779 59.972 358.58 59.0853C349.469 51.9973 339.408 48.4533 
+            328.407 48.4533C321.093 48.4533 314.208 50.0173 307.749 53.14C307.681 53.1733 307.612 53.2027 307.544 53.236C306.373
+             53.8093 305.217 54.4387 304.075 55.1133C303.097 55.692 302.129 56.3027 301.172 56.956C299.915 57.736
+              297.912 59.3653 295.172 61.8413C294.82 62.1587 294.459 62.4867 294.083 62.8333C293.796 63.1453 293.517
+               63.4507 293.249 63.748C291.367 65.8373 289.924 67.5907 288.921 69.0093C287.777 70.6707 286.759 72.312 285.856
+                73.932C285.585 74.42 285.323 74.9053 285.073 75.3893C283.523 78.5173 282.308 81.6387 281.393 84.7547C280.077 
+                89.2387 279.401 93.7107 279.401 98.1707V99.6892C279.401 105.408 280.493 111.152 282.641 116.918C282.895 117.599
+                 283.163 118.28 283.445 118.961C283.679 119.523 283.907 120.086 284.161 120.648C284.633 121.661 285.156 122.69
+                  285.729 123.737C286.303 124.783 286.927 125.847 287.601 126.927C287.819 127.265 288.041 127.593 288.265 
+                  127.921C289.007 129.014 289.784 130.061 290.596 131.058C290.911 131.442 291.227 131.821 291.551 
+                  132.191C292.268 133.162 293.276 134.264 294.573 135.499C295.352 136.239 296.235 137.027 297.223
+                   137.861C298.504 138.944 299.959 140.091 301.577 141.304C304.644 143.268 307.76 144.869 310.924 
+                   146.119C316.467 148.306 322.159 149.404 328.003 149.404H328.912C336.528 149.404 343.885 147.545 350.983
+                    143.828C352.003 143.294 353.016 142.724 354.024 142.115C354.428 141.861 354.84 141.593 355.257
+                     141.311C356.511 140.463 357.821 139.481 359.188 138.367C359.624 138.04 360.1 137.64 360.611 137.18C361.993
+                      135.935 363.644 134.206 365.568 131.988C366.48 130.849 367.32 129.743 368.089 128.671C368.601
+                       127.956 369.081 127.255 369.531 126.57C370.205 125.542 370.808 124.548 371.34 123.587C375.455 115.754
+                        377.516 107.587 377.516 99.08C377.515 98.2613 377.496 97.4467 377.459 96.636C377.197 90.9573 376.036
+                         85.4613 373.971 80.144Z" fill="#144C8B"></path><path d="M529.335 119.097C529.235 119.222 529.137 
+                         119.348 529.035 119.471C528.375 120.271 527.672 121.054 526.924 121.821C526.911 121.833 526.9 121.847
+                          526.887 121.86C526.813 121.924 526.739 121.982 526.665 122.045C526.085 122.541 525.504 123.011 
+                          524.921 123.459C524.708 123.623 524.495 123.783 524.28 123.94C519.02 127.814 513.613 129.757 508.053
+                           129.757H505.825C501.815 129.757 497.601 128.573 493.181 126.205C493.083 126.152 492.981 126.091
+                            492.883 126.037C492.34 125.739 491.795 125.433 491.245 125.101C490.74 124.726 490.255 124.343 489.777
+                             123.956C484.289 119.51 480.633 114.296 478.819 108.311C477.921 105.354 477.473 102.21 477.473 98.8773C477.473 94.92
+                              478.219 91.0653 479.697 87.312C479.92 86.7453 480.161 86.1813 480.417 85.6187C480.535 85.3627 480.656 85.1053 480.781
+                               84.8507C481.688 82.9867 482.776 81.1467 484.057 79.3347C484.875 78.3987 485.705 77.52 486.548 76.7013C487.391 75.8813
+                                488.245 75.12 489.112 74.4173C491.14 72.776 493.236 71.4627 495.396 70.46C495.733 70.304 496.072 70.156 496.413 
+                                70.0147C499.487 68.744 502.691 68.0973 506.028 68.0973H507.647C508.188 68.0973 508.728 68.124 509.271 68.1613C509.564 
+                                68.1813 509.859 68.216 510.152 68.2467C510.809 68.3173 511.468 68.4146 512.128 68.5387C514.727 69.0293 517.345 69.944 
+                                519.981 71.2827C520.863 71.7307 521.747 72.208 522.632 72.752C526.075 75.232 528.871 78.008 531.023 81.0773C531.74
+                                82.1013 532.385 83.1573 532.96 84.2453C535.255 88.6 536.403 93.4773 536.403 98.8773V98.9773H536.405C536.405 101.969 
+                                536.028 104.823 535.289 107.547C534.164 111.708 532.18 115.559 529.335 119.097ZM556.048 50.1733L555.845 
+                                49.972H536.711L536.6 50.0453L536.405 50.1733V61.312C528.371 52.74 518.72 48.4533 507.447 48.4533C506.696 48.4533 
+                                505.949 48.468 505.208 48.4987C503.725 48.5613 502.263 48.6867 500.819 48.872C498.655 49.1533 496.533 49.572 494.456 
+                                50.1333C492.797 50.58 491.169 51.128 489.567 51.7546C488.493 52.1733 487.429 52.6213 486.381 53.1213C482.461 54.988
+                                 478.717 57.4147 475.148 60.4013C472.279 63.1013 469.768 65.928 467.617 68.8813C466.541 70.3573 465.556 71.8653 464.659 
+                                 73.4053C460.177 81.1053 457.936 89.596 457.936 98.8773V98.9773C457.936 104.606 458.792 109.971 460.48 115.081C462.396
+                                  120.88 465.388 126.348 469.479 131.479C470.769 132.973 472.096 134.372 473.456 135.68C475.053 137.215 476.705 138.604
+                                   478.399 139.881C479.221 140.501 480.055 141.088 480.897 141.648C481.804 142.248 482.723 142.816 483.655 
+                                   143.347C483.892 143.481 484.127 143.628 484.365 143.759C485.712 144.492 487.088 145.145 488.487 145.736C488.737 
+                                   145.841 488.987 145.952 489.239 146.053C494.792 148.281 500.76 149.401 507.144 149.401H507.244C514.669 149.401
+                                    521.251 147.78 526.989 144.537C528.136 143.888 529.251 143.176 530.331 142.398C532.491 140.841 534.516 139.025
+                                     536.405 136.951V146.771L536.711 146.973H555.845L556.048 146.771V50.1733Z" fill="#144C8B"></path><path d="M587.152 
+                                     94.448C587.225 93.844 587.316 93.2467 587.421 92.6547C587.515 92.136 587.616 91.62 587.735 91.1107C587.919 90.3213
+                                      588.133 89.544 588.377 88.776C589.335 85.7747 590.763 82.9373 592.653 80.26C592.699 80.1973 592.74 80.1333 592.785
+                                       80.0707C593.324 79.056 594.639 77.504 596.732 75.412C597.103 75.0787 597.477 74.756 597.853 74.4427C598.605
+                                        73.8173 599.367 73.2347 600.137 72.6933C605.148 69.1747 610.561 67.4133 616.375 67.4133C621.099 67.4133 625.656 
+                                        68.5947 630.045 70.9573C630.62 71.2653 631.221 71.6453 631.841 72.0853C632.311 72.4173 632.791 72.7787 633.287
+                                         73.1867C633.589 73.3133 633.997 73.5867 634.509 74.008C635.364 74.7093 636.507 75.8174 637.941 77.3373C639.363
+                                          78.9933 640.589 80.7053 641.632 82.472C642.545 84.0187 643.319 85.6053 643.941 87.236C644.108 87.672 644.264 
+                                          88.112 644.409 88.5547C645.431 91.6533 645.94 94.9013 645.94 98.2987V98.5987C645.94 103.933 644.556 109.094
+                                           641.791 114.091C641.176 115.274 640.259 116.601 639.048 118.068C638.395 118.862 637.657 119.695 636.829 
+                                           120.572C633.859 123.474 630.669 125.65 627.26 127.101C626.835 127.282 626.405 127.452 625.972 127.611C622.941 128.721
+                                            619.743 129.277 616.375 129.277C612.309 129.277 608.443 128.421 604.773 126.723C604.305 126.506 603.84 126.275 603.377
+                                             126.03C601.871 125.232 600.396 124.292 598.959 123.2C598.24 122.736 597.339 121.956 596.252 120.86C595.601 120.203
+                                              594.883 119.431 594.099 118.546C589.304 112.538 586.908 105.854 586.908 98.496C586.908 97.1187 586.992 95.7707 
+                                              587.152 94.448ZM637.067 210.445C632.165 212.024 626.781 212.824 620.957 212.824C609.885 212.824 600.661 210.403 
+                                              593.601 205.673C592.227 204.633 591.023 203.565 589.988 202.473C586.881 199.188 585.311 195.673 585.311 
+                                              191.984V191.735C585.311 189.289 586.255 186.623 588.111 183.78C588.296 183.496 588.491 183.211 588.693 182.923C589.712
+                                               181.484 590.957 180.003 592.427 178.484C593.549 177.476 594.604 176.567 595.588 175.76C597.225 174.415 598.665 173.352
+                                                599.889 172.582C602.284 172.94 604.861 173.208 607.605 173.388C610.348 173.567 613.257 173.657 616.316
+                                                 173.657H628.239C632.291 173.657 636.567 174.164 640.932 175.156C641.556 175.298 642.181 175.449 642.809 
+                                                 175.611C644.125 176.013 645.352 176.477 646.499 176.989C647.903 177.615 649.183 178.315 650.316 179.092C651.001
+                                                  179.561 651.636 180.059 652.217 180.581C653.204 181.544 654.009 182.529 654.669 183.54C656.04 185.636 656.729
+                                                   187.845 656.729 190.228V190.606C656.729 194.2 655.021 197.931 651.68 201.664C649.837 203.588 648.271 204.956 
+                                                   647.007 205.748C643.965 207.729 640.644 209.292 637.067 210.445ZM669.02 169.103C668.083 168.049 666.86 166.796
+                                                    665.315 165.306C663.155 163.472 660.772 161.857 658.185 160.451C658.033 160.368 657.887 160.277 657.732
+                                                     160.196C649.435 155.806 639.004 153.589 626.587 153.589L622.196 153.652L617.82 153.715C606.088 153.715 
+                                                     598.56 152.608 595.444 150.427L595.292 150.344L595.189 150.289C595.021 150.221 594.635 150.068 594.368 
+                                                     149.433C594.209 149.053 594.092 148.499 594.092 147.687C594.092 146.684 594.296 145.723 594.692 144.786C594.823 
+                                                     144.48 594.971 144.176 595.141 143.875C597.66 145.11 600.211 146.115 602.793 146.888C607.097 148.177 611.491 
+                                                     148.824 615.972 148.824H616.881C623.413 148.824 629.755 147.456 635.905 144.723C636.419 144.494 636.929 144.257 
+                                                     637.44 144.011C638.969 143.271 640.487 142.444 641.993 141.533C643.208 140.775 644.48 139.882
+                                            645.809 138.856C646.252 138.515 646.701 138.157 647.157 137.786C647.748 137.343 648.409 136.775 649.136 136.088C650.399 134.894 651.865 133.336 653.539 131.408C655.709 128.694 657.471 126.173 658.833 123.839C658.996 123.559 659.157 123.28 659.309 123.005C663.424 115.173 665.485 107.006 665.485 98.4987C665.48 92.0227 664.323 85.7787 662.013 79.7627C661.988 79.696 661.967 79.6293 661.94 79.5627C661.113 77.2533 660.031 74.9707 658.721 72.708L658.885 72.732L658.932 72.7387C658.753 72.4267 658.573 72.124 658.391 71.8347C658.461 71.576 658.629 71.2067 659.011 70.7267C659.403 70.3133 659.851 69.976 660.351 69.7013C661.179 69.2453 662.155 68.972 663.307 68.8893C663.571 68.8707 663.843 68.8613 664.125 68.8613H667.26L667.688 68.7773L667.903 68.736L668.635 68.004V50.1627L668.509 49.52L667.793 48.7987L667.783 48.788H663.376C661.277 48.788 659.056 49.0987 656.865 49.6907C654.379 50.172 651.7 51.3147 648.887 53.0787C648.592 53.2627 648.297 53.448 648 53.6453C647.589 53.9187 647.124 54.2867 646.609 54.74C645.957 55.3147 645.221 56.032 644.387 56.9093C642.253 55.4053 640.069 54.0867 637.836 52.9573C635.601 51.828 633.317 50.8867 630.983 50.1333C630.4 49.9453 629.813 49.768 629.223 49.6027C625.095 48.4493 620.812 47.872 616.377 47.872C610.833 47.872 605.535 48.7693 600.483 50.5627C596.553 51.9573 592.773 53.896 589.143 56.376C588.965 56.4853 588.773 56.612 588.565 56.756C587.117 57.7613 584.947 59.592 582.052 62.2533C580.948 63.4534 579.981 64.5493 579.143 65.548C578.607 66.1867 578.127 66.7827 577.699 67.3387C577.407 67.72 577.132 68.0853 576.891 68.428C576.519 68.968 576.16 69.5067 575.813 70.0427C574.935 71.4027 574.149 72.748 573.435 74.08C573.304 74.3227 573.167 74.5667 573.043 74.808C572.429 76.0467 571.884 77.2827 571.369 78.52C568.716 84.9014 567.371 91.2587 567.371 97.5893V99.108C567.371 101.93 567.647 104.759 568.169 107.593C568.935 111.739 570.245 115.898 572.131 120.067C572.367 120.574 572.616 121.085 572.877 121.599C573.661 123.143 574.559 124.725 575.571 126.346C576.719 128.133 577.963 129.793 579.292 131.338C575.805 136.28 574.028 141.689 574.028 147.433V147.811C574.028 152.161 574.999 156.016 576.88 159.353C577.111 159.763 577.355 160.165 577.613 160.559C578.233 161.501 578.915 162.408 579.695 163.259C577.989 164.52 576.252 166.159 574.488 168.172C574.208 168.492 573.927 168.819 573.647 169.157C573.069 169.936 572.531 170.713 572.013 171.489C567.521 178.223 565.241 184.815 565.241 191.108V192.489C565.241 196.179 565.945 199.864 567.333 203.52C568.52 206.645 570.204 209.751 572.395 212.817C572.915 213.506 573.595 214.317 574.44 215.249C574.863 215.715 575.327 216.212 575.831 216.737C576.336 217.264 576.883 217.821 577.471 218.408C578.569 219.36 579.636 220.222 580.68 221.023C582.065 222.084 583.404 223.025 584.676 223.81C587.235 225.329 590.112 226.743 593.256 228.049C593.984 228.351 594.712 228.653 595.469 228.944C603.512 231.564 611.369 232.896 618.821 232.896H623.089C627.504 232.896 632.703 232.253 638.592 230.972C640.072 230.582 641.601 230.119 643.163 229.6C643.6 229.455 644.043 229.3 644.485 229.145C645.9 228.649 647.335 228.117 648.8 227.524C651.296 226.464 653.637 225.253 655.767 223.947C656.045 223.776 656.333 223.608 656.605 223.435C658.508 222.308 661.023 220.361 664.115 217.608C667.061 214.748 669.009 212.54 670.053 210.886C670.892 209.643 671.653 208.392 672.336 207.133C675.296 201.681 676.792 196.099 676.792 190.482C676.797 183.565 674.653 176.949 670.407 170.791C670.041 170.294 669.583 169.735 669.02 169.103Z" fill="#144C8B"></path><path d="M272.3 64.3987H223.395V19.5453H283.537H283.539L283.64 19.4427V0.102661L283.539 0H283.537H203.955L203.889 0.0666656L203.855 0.102661V148.132L203.951 148.231L203.955 148.235H223.295L223.3 148.229L223.395 148.132V83.8387H272.3V64.3987Z" fill="#144C8B"></path><path d="M439.719 49.76C437.959 49.4986 436.213 49.364 434.484 49.364H431.951C429.504 49.364 427.077 49.6707 424.669 50.284C423.707 50.528 422.747 50.8227 421.791
+                                             51.1667C418.236 52.4427 414.725 54.4053 411.259 57.0373C410.527 57.592 409.797 58.168 409.071 58.7827V51.492L408.867 
+                                             51.288H389.933L389.631 51.492V146.568L389.933 146.871H408.867L409.071 146.568V102.016C409.071 97.764 409.285 93.984 409.707 90.6507C410.067 87.8 410.576 85.2733 411.245 83.0946V83.0933C412.116 80.2586 413.247 77.9933 414.64 76.2973C416.487 74.5 418.444 73.0387 420.511 71.916C423.955 70.044 427.703 69.1066 431.753 69.1066H433.372C438.367 69.1066 444.103 71.236 450.584 75.488C450.643 75.3546 450.767 74.9133 450.948 74.1987C451.597 71.6373 453.027 65.3627 455.244 55.3373V55.2386C449.937 52.336 444.764 50.5107 439.719 49.76Z" fill="#144C8B">
+
+                                            </path>
+                                            <path d="M739.859 71.6973C741.315 72.52 742.737 73.48 744.129 74.5773C748.593 78.9653 751.449 82.8773 752.696 86.3227V86.4227H699.431L701.187 82.6773C707.628 72.8893 715.865 67.9947 725.899 67.9947C729.836 67.9947 733.591 68.784 737.163 70.3533C738.073 70.752 738.972 71.196 739.859 71.6973ZM776.427 104.062C776.492 103.59 776.525 102.915 776.525 102.021V98.9813C776.525 95.0973 776.073 91.2827 775.184 87.5333C775.044 86.9467 774.895 86.3627 774.733 85.7787C774.617 85.3587 774.496 84.9373 774.369 84.5187C773.035 80.1307 771.085 75.8373 768.508 71.64C768.091 70.9147 767.584 70.156 767.009 69.368C765.067 66.7067 762.241 63.6867 758.512 60.3C752.335 55.364 746 51.9693 739.508 50.1187C736.912 49.3787 734.289 48.884 731.643 48.6373C730.319 48.5147 728.988 48.4533 727.652 48.4533H724.467C722.547 48.4533 720.629 48.5907 718.713 48.856C713.945 49.5147 709.187 50.9893 704.436 53.2867C703.831 53.58 703.225 53.8867 702.62 54.2067C700.2 55.4853 697.781 56.9773 695.365 58.6813C692.932 60.712 690.725 62.828 688.743 65.0267C687.679 66.2067 686.697 67.416 685.764 68.644C679.071 77.4507 675.705 87.4893 675.705 98.7773V99.1827C675.705 110.66 679.441 121.22 686.908 130.877C697.741 143.227 710.701 149.404 725.787 149.404H726.225C734.463 149.404 742.085 147.557 749.095 143.861C750.479 143.133 751.833 142.32 753.168 141.447C753.465 141.252 753.763 141.057 754.057 140.856C755.332 139.984 756.585 139.049 757.816 138.045C758.013 137.884 758.209 137.72 758.405 137.556C759.657 136.506 760.887 135.389 762.092 134.201C762.159 134.135 762.228 134.073 762.295 134.006C762.349 133.953 762.403 133.893 762.457 133.839C763.089 133.206 763.716 132.558 764.336 131.886C766.743 128.714 768.559 126.088 769.813 123.98C770.427 122.949 770.917 122.032 771.253 121.255C771.196 121.203 770.173 120.752 768.213 119.915C767.847 119.758 767.444 119.587 767.011 119.403C766.213 119.064 765.304 118.679 764.281 118.248C761.232 116.961 757.199 115.268 752.144 113.155C752.1 113.169 752.029 113.238 751.944 113.338C751.909 113.379 751.872 113.426 751.829 113.482C751.464 113.968 750.84 115 749.948 116.598C747.532 
+                            119.915 744.899 122.609 742.051 124.682C741.1 125.373 740.127 125.994 739.129 126.547C735.139 128.757 730.764 129.862 726.007 129.862C722.235 129.862 718.665 129.128 715.299 127.661C711.931 126.193 708.764 123.991 705.799 121.055C701.916 117.478 699.136 112.079 697.452 104.856H776.087C776.187 104.856 776.269 104.736 776.336 104.51C776.356 104.442 776.373 104.361 776.391 104.271C776.403 104.206 776.415 104.138 776.427 104.062Z" fill="#144C8B"></path><path d="M159.968 41.48C159.968 41.48 152.955 31.7987 145.935 22.4293C137.085 24.6413 127.541 29.644 119.391 35.6867C111.781 41.3293 104.864 48.0053 97.5391 55.0733C92.0834 60.3387 86.4933 65.7133 80.5454 70.6867C94.5261 76.0587 107.138 89.0667 115.897 102.521C117.752 105.371 119.456 108.315 121.104 111.287C137.641 89.264 155.503 65.516 159.968 60.1627C167.995 50.54 159.968 41.48 159.968 41.48Z" fill="#144C8B"></path><path d="M82.714 48.176C82.5625 47.8853 82.4161 47.5907 82.2995 47.2747C77.4631 34.1333 55.7792 29.6467 36.4156 31.036C26.9677 31.712 17.5459 33.632 7.56926 35.6653C7.41406 35.696 7.25729 35.728 7.10208 35.76C5.03541 38.4813 3.23593 41.008 1.93385 43.1053C-3.26146 51.4773 3.65625 60.1627 3.65625 60.1627C3.65625 60.1627 9.84218 68.6333 18.4344 80.408C33.7568 79.736 49.3552 74.5733 62.9937 65.0053C69.9088 60.1547 76.2421 54.364 82.714 48.176Z" fill="#144C8B"></path><path d="M35.3292 15.8293C57.7251 14.2227 83.9735 19.1667 94.2984 37.108C99.3912 32.328 104.66 27.6307 110.309 23.4413C117.982 17.7533 126.88 12.6947 135.981 9.48933C135.951 9.45067 135.919 9.41067 135.888 9.372C129.175 1.084 116.032 2.19067 116.032 2.19067C116.032 2.19067 53.8151 2.624 43.9547 2.69334C34.0937 2.76134 31.0912 7.30268 31.0912 7.30268C31.0912 7.30268 27.2088 11.5867 22.1807 17.404C26.5364 16.7107 30.9245 16.1453 35.3292 15.8293Z" fill="#144C8B"></path><path d="M103.12 110.838C92.5348 94.576 75.8608 79.9947 62.4635 84.0773C61.7764 84.2867 61.0868 84.36 60.4029 84.3746C50.316 89.6493 39.6045 93.0493 28.8149 94.6386C47.1353 119.76 68.9275 149.681 69.9832 151.321C70.9639 152.845 82.4379 162.092 91.5291 150.476C94.5009 146.679 101.997 136.725 111.008 124.73C108.544 119.906 105.991 115.25 103.12 110.838Z" fill="#144C8B"></path></svg>
+</div>
+<div class="footerBody">
+    <div class="txtxt1">
+        We‘re on a mission to get motivated students into great jobs.
+    </div>
+    <div class="aboutUs">
+        <h3>About Us</h3>
+        <ul>
+            <li>Abouut</li>
+            <li>Leadership</li>
+            <li>Editorail Guidence</li>
+            <li>Press</li>
+            <li>Carerrs</li>
+            <li>Contact</li>
+            <li>FAQs</li>
+        </ul>
+    </div>
+    <div class="support">
+        <h3>Support</h3>
+        <ul>
+            <li>Privacy Notice</li>
+            <li>Cookie Notice</li>
+            <li>Cookie Settings</li>
+            <li>Terms of Use</li>
+            <li> Security</li>
+            <li>Sitemap</li>
+        </ul>
+    </div>
+
+
+
+<div class="forStudents">
+    <h3>For Students</h3>
+    <ul>
+        <li>All Job Simulations</li>
+        <li>Software Engineering Job Sims</li>
+        <li>Consulting Job Sims</li>
+        <li>Bankibg & Financial Services</li>
+        <li>Law Job Sims</li>
+        <li>Data job Sims</li>
+        <li>Security Job Sims</li>
+    </ul>
+</div>
+
+
+
+<div class="ForEmployer">
+    <h3>For Employer</h3>
+    <ul>
+        <li>Why Forage</li>
+        <li>Employer Resource</li>
+        <li>Requset a Demo</li>
+    </ul>
+</div>
+
+<div class="FOrEducator">
+    <h3>For Educators</h3>
+    <ul>
+        <li>Educator Resources</li>
+        <li>Awards</li>
+        <li>Register as an Educator </li>
+    </ul>
+</div>
+
+</div>
+<div class="footerFoot">
+    <p style="font-size: 20px; margin-left: 20px;">
+        © 2023 Forage, Inc. All rights reserved.
+    </p>
+    <label style="margin-right: 30px; cursor: pointer;">
+        <i class="fa-brands fa-linkedin"></i>
+    <i class="fa-brands fa-square-twitter"></i>
+    <i class="fa-brands fa-square-instagram"></i>
+    <i class="fa-brands fa-square-facebook"></i>
+    </label>
+</div>
+
+
+</footer>
+
+
+
+
+<script src="./js.js"></script>
+</body>
+</html>
